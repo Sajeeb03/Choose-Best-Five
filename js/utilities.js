@@ -29,4 +29,14 @@ function makeButtonDisabled(elementId) {
     buttonField.setAttribute('disabled', true);
 }
 
+function getValueFromInput(elementId) {
+    const inputField = document.getElementById(elementId);
+    const inputFieldString = inputField.value;
+    const inputFieldValue = parseFloat(inputFieldString);
+    return inputFieldValue;
+}
 
+function setTextToOutput(elementId, value) {
+    const outputField = document.getElementById(elementId);
+    outputField.innerText = value;
+}
