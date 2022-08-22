@@ -11,7 +11,7 @@ function listOfSelectedFive(elementId) {
     const listItemNumbers = document.querySelectorAll('li');
     const numbers = listItemNumbers.length;
 
-    if (numbers <= 4) {
+    if (numbers < 5) {
         let listItem = document.createElement('li');
         listItem.innerText = playerName;
         listField.appendChild(listItem);
@@ -33,7 +33,16 @@ function getValueFromInput(elementId) {
     const inputField = document.getElementById(elementId);
     const inputFieldString = inputField.value;
     const inputFieldValue = parseInt(inputFieldString);
-    return inputFieldValue;
+
+    if (isNaN(inputFieldValue) === true) {
+        alert('Enter a number');
+        inputField.value = '';
+        return;
+    }
+    else {
+        return inputFieldValue;
+    }
+
 }
 
 function getInnerTextFromTexts(elementId) {
@@ -46,4 +55,8 @@ function getInnerTextFromTexts(elementId) {
 function setTextToOutput(elementId, value) {
     const outputField = document.getElementById(elementId);
     outputField.innerText = value;
+}
+
+function notAnumberChecker(elementId) {
+
 }

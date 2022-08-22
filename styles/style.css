@@ -62,3 +62,15 @@ hr {
     width: 100%;
     margin: 20px;
 }
+
+.image {
+    height: 20em;
+    position: absolute;
+    margin-left: 35em;
+    margin-top: 2.5em;
+}
+
+.image-2 {
+    position: absolute;
+    margin-left: -39em;
+}
