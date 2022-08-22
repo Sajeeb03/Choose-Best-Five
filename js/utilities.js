@@ -36,6 +36,13 @@ function getValueFromInput(elementId) {
     return inputFieldValue;
 }
 
+function getInnerTextFromTexts(elementId) {
+    const textField = document.getElementById(elementId);
+    const textFieldString = textField.innerText;
+    const textFieldValue = parseInt(textFieldString);
+    return textFieldValue;
+}
+
 function setTextToOutput(elementId, value) {
     const outputField = document.getElementById(elementId);
     outputField.innerText = value;
