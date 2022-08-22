@@ -32,7 +32,7 @@ function makeButtonDisabled(elementId) {
 function getValueFromInput(elementId) {
     const inputField = document.getElementById(elementId);
     const inputFieldString = inputField.value;
-    const inputFieldValue = parseFloat(inputFieldString);
+    const inputFieldValue = parseInt(inputFieldString);
     return inputFieldValue;
 }
 
