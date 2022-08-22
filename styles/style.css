@@ -20,6 +20,7 @@
     background-color: #000000;
 }
 
+
 .img-size {
     height: 14rem;
 }
@@ -57,10 +58,17 @@
     ;
 }
 
+footer {
+    height: 5rem;
+    margin-top: 20px;
+    background-color: #000000;
+
+}
+
 hr {
     color: white;
     width: 100%;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .image {

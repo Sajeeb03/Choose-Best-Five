@@ -17,7 +17,7 @@ function listOfSelectedFive(elementId) {
         listField.appendChild(listItem);
     }
     else {
-        alert('You can not buy more than 5');
+        alert('You can not select more than 5');
         return;
     }
 
@@ -27,6 +27,7 @@ function listOfSelectedFive(elementId) {
 function makeButtonDisabled(elementId) {
     const buttonField = document.getElementById(elementId);
     buttonField.setAttribute('disabled', true);
+    buttonField.style.backgroundColor = 'gray'
 }
 
 function getValueFromInput(elementId) {
