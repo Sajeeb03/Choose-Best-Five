@@ -15,3 +15,50 @@
     color: #FF5E19;
     ;
 }
+
+.card-background {
+    background-color: #000000;
+}
+
+.img-size {
+    height: 14rem;
+}
+
+.card-height {
+    height: 27.5rem;
+}
+
+.input-fields {
+    height: 30px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.btn-width {
+    width: 50%;
+}
+
+.btn-width-1 {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.btn-width-2 {
+    width: 70%;
+    margin-left: 15%;
+}
+
+#coach-input {
+    margin-left: 28px;
+}
+
+.money-color {
+    color: #FF5E19;
+    ;
+}
+
+hr {
+    color: white;
+    width: 100%;
+    margin: 20px;
+}
