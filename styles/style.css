@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .header-style {
@@ -74,11 +75,12 @@ hr {
 .image {
     height: 20em;
     position: absolute;
-    margin-left: 35em;
-    margin-top: 2.5em;
+    right: 0;
+        bottom: 0;
 }
 
 .image-2 {
     position: absolute;
-    margin-left: -39em;
+left: 0;
+    bottom: 0;
 }
